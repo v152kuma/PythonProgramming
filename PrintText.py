@@ -13,9 +13,19 @@ print(6*7)
 print("Number 1\tThe Larch\nNumber 2\tThe Horse Chestnut")
 
 
-#Get user Input
+# =============================================================================
+# #Get user Input
+# 
+# name=input("Enter your name: ")
+# 
+# print("Good day "+ name)
+# =============================================================================
 
-name=input("Enter your name: ")
+#Integer Operations
 
-print("Good day "+ name)
+number1 = int(input("Enter first number: "))
+number2 = int(input("Enter the second number: "))
 
+
+for i in range (number1//number2):
+    print(i)
